@@ -1,0 +1,44 @@
+
+
+.lg-react-element {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    gap: 15px;
+
+}
+
+.lg-react-element a {
+    position: relative;
+}
+
+
+
+
+.lg-react-element a img {
+    width: 100%;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+@media (max-width: 575.98px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+
+
+
+
+@media (max-width: 991.98px) {
+  .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+ 
